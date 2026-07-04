@@ -4,7 +4,7 @@
 	<id>skynettechnologiesallinoneaccessibility</id>
 	<name>All In One Accessibility</name>
 	<summary>Quick Web Accessibility Implementation with All in One Accessibility!</summary>
-	<description><![CDATA[
+<description><![CDATA[
 	## **Free WCAG, ADA, EAA accessibility app for NextCloud websites!**
 
 This [Free NextCloud accessibility app](https://www.skynettechnologies.com/all-in-one-accessibility) - adds an accessible experience for users with visual, auditory, motor, or cognitive disabilities. It supports assistive technologies, offers customizable updates, and enhances overall usability according to WCAG 2.1, 2.2, ADA, EAA, Section 508, France RGAA, California Unruh, European EAA EN 301 549, UK Equality Act, Spain UNE 139803:2012, Australian DDA, Israeli Standard 5568, Ontario AODA, Canada ACA, German BITV, Brazilian Inclusion Law (LBI 13.146/2015), JIS X 8341 (Japan), Italian Stanca Act, Indian RPwD Act, Switzerland DDA and other [accessibility standards](https://www.skynettechnologies.com/accessibility-standards).
@@ -47,8 +47,8 @@ Explore the [free accessibility widget features guide](https://www.skynettechnol
 - Some advanced features require a commercial subscription.
 
 For more details, visit [**NextCloud accessibility app**](https://www.skynettechnologies.com/all-in-one-accessibility)**.**
-	]]></description>
-	<version>1.0.1</version>
+]]></description>
+	<version>1.0.2</version>
 	<licence>agpl</licence>
 	<author mail="rajesh@skynettechnologies.com" homepage="https://www.skynettechnologies.com/">Skynet Technologies USA LLC</author>
 	<namespace>SkynetTechnologiesAllInOneAccessibility</namespace>
