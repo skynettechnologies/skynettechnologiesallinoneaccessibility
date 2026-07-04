@@ -3,8 +3,8 @@
 	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
 	<id>skynettechnologiesallinoneaccessibility</id>
 	<name>All In One Accessibility</name>
-	<summary>All in one accessibility</summary>
-	<description>All in one accessibility</description>
+	<summary>Quick Web Accessibility Implementation with All in One Accessibility!</summary>
+	<description>Quick Web Accessibility Implementation with All in One Accessibility!</description>
 	<version>1.0.0</version>
 	<licence>agpl</licence>
 	<author mail="developer3@skynettechnologies.com" homepage="https://www.skynettechnologies.com/">Skynet Technologies USA LLC</author>
@@ -13,7 +13,7 @@
 		<filesystem/>
 	</types>
 	<category>files</category>
-	<bugs>https://www.skynettechnologies.com/</bugs>
+	<bugs>https://github.com/skynettechnologies/skynettechnologiesallinoneaccessibility/issues</bugs>
 	<dependencies>
 		<nextcloud min-version="29" max-version="29"/>
 	</dependencies>
