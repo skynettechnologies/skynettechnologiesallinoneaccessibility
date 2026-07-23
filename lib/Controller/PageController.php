@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OCA\SkynetTechnologiesAllInOneAccessibility\Controller;
+namespace OCA\AllInOneAccessibility\Controller;
 
-use OCA\SkynetTechnologiesAllInOneAccessibility\AppInfo\Application;
+use OCA\AllInOneAccessibility\AppInfo\Application;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\Attribute\FrontpageRoute;
 use OCP\AppFramework\Http\Attribute\NoAdminRequired;

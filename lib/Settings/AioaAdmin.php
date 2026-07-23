@@ -1,5 +1,5 @@
 <?php
-namespace OCA\SkynetTechnologiesAllInOneAccessibility\Settings;
+namespace OCA\AllInOneAccessibility\Settings;
 
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;

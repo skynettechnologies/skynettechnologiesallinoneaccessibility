@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OCA\SkynetTechnologiesAllInOneAccessibility\Controller;
+namespace OCA\AllInOneAccessibility\Controller;
 
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\Attribute\ApiRoute;

@@ -3,7 +3,7 @@
  * SPDX-FileCopyrightText: 2016 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
-namespace OCA\SkynetTechnologiesAllInOneAccessibility\Settings;
+namespace OCA\AllInOneAccessibility\Settings;
 
 use OCA\WorkflowEngine\AppInfo\Application;
 use OCP\IL10N;
@@ -25,7 +25,7 @@ class Section implements IIconSection {
 	 * {@inheritdoc}
 	 */
 	public function getID() {
-		return 'skynettechnologiesallinoneaccessibility';
+		return 'allinoneaccessibility';
 	}
 
 	/**

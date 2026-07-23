@@ -11,7 +11,7 @@ use OCP\DB\QueryBuilder\IQueryBuilder;
 use OCP\IDBConnection;
 
 
-Util::addScript(OCA\SkynetTechnologiesAllInOneAccessibility\AppInfo\Application::APP_ID, 'main');
+Util::addScript(OCA\AllInOneAccessibility\AppInfo\Application::APP_ID, 'main');
 
 $appConfig = Server::get(IAppConfig::class);
 $contentSecurityPolicyManager = Server::get(IContentSecurityPolicyManager::class);
@@ -139,8 +139,8 @@ function sendPostRequest($url, $data) {
 
 fetchApiData($domain, $username, $email);
 ?>
-    <link href="/apps/skynettechnologiesallinoneaccessibility/src/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/apps/skynettechnologiesallinoneaccessibility/src/css/style.css" rel="stylesheet" />
+    <link href="/apps/allinoneaccessibility/src/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/apps/allinoneaccessibility/src/css/style.css" rel="stylesheet" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -257,7 +257,7 @@ fetchApiData($domain, $username, $email);
                                                 <div class="col-sm-12">
                                                     <div class="header-content">
                                                         <h1 class="mb-0 text-black">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/all-in-one-accessibility-logo.svg" alt="All in One Accessibility - Skynet Technologies">
+                                                            <img src="/apps/allinoneaccessibility/src/img/all-in-one-accessibility-logo.svg" alt="All in One Accessibility - Skynet Technologies">
                                                         </h1>
                                                     </div>
                                                     <div class="form-text">
@@ -429,7 +429,7 @@ fetchApiData($domain, $username, $email);
                                                              <input type="radio" id="edit-type-<?php echo $it;?>" <?php echo ($it==1)?' checked':''?> name="aioa_icon_type"
                                                                     value="aioa-icon-type-<?php echo $it;?>" class="form-radio" />
                                                              <label for="edit-type-<?php echo $it;?>" class="option">
-                                                                 <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-<?php echo $it;?>.svg"
+                                                                 <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-<?php echo $it;?>.svg"
                                                                       width="65" height="65" style="height: 65px;" />
                                                                  <span class="visually-hidden">Type <?php echo $it;?></span>
                                                              </label>
@@ -477,7 +477,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-big" name="aioa_icon_size" value="aioa-big-icon"
                                                                class="form-radio" />
                                                         <label for="edit-size-big" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="75" height="75" style="height: 75px;"  class="iconimg"/>
                                                             <span class="visually-hidden">Big</span>
                                                         </label>
@@ -489,7 +489,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-medium" checked="" name="aioa_icon_size"
                                                                value="aioa-medium-icon" class="form-radio" />
                                                         <label for="edit-size-medium" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="65" height="65" style="height: 65px;"  class="iconimg"/>
                                                             <span class="visually-hidden">Medium</span>
                                                         </label>
@@ -501,7 +501,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-default" name="aioa_icon_size" value="aioa-default-icon"
                                                                class="form-radio" />
                                                         <label for="edit-size-default" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="55" height="55" style="height: 55px;"  class="iconimg"/>
                                                             <span class="visually-hidden">Default</span>
                                                         </label>
@@ -513,7 +513,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-small" name="aioa_icon_size" value="aioa-small-icon"
                                                                class="form-radio" />
                                                         <label for="edit-size-small" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="45" height="45" style="height: 45px;"  class="iconimg"/>
                                                             <span class="visually-hidden">Small</span>
                                                         </label>
@@ -525,7 +525,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-extra-small" name="aioa_icon_size"
                                                                value="aioa-extra-small-icon" class="form-radio" />
                                                         <label for="edit-size-extra-small" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="35" height="35" style="height: 35px;"   class="iconimg"/>
                                                             <span class="visually-hidden">Extra Small</span>
                                                         </label>
@@ -545,7 +545,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-big" name="aioa_icon_size_mb" value="aioa-big-icon-mb"
                                                                class="form-radio" />
                                                         <label for="edit-size-big" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="75" height="75" />
                                                             <span class="visually-hidden">Big</span>
                                                         </label>
@@ -557,7 +557,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-medium" checked="" name="aioa_icon_size_mb"
                                                                value="aioa-medium-icon-mb" class="form-radio" />
                                                         <label for="edit-size-medium" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="65" height="65" />
                                                             <span class="visually-hidden">Medium</span>
                                                         </label>
@@ -569,7 +569,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-default" name="aioa_icon_size_mb"
                                                                value="aioa-default-icon-mb" class="form-radio" />
                                                         <label for="edit-size-default" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="55" height="55" />
                                                             <span class="visually-hidden">Default</span>
                                                         </label>
@@ -581,7 +581,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-small" name="aioa_icon_size_mb" value="aioa-small-icon-mb"
                                                                class="form-radio" />
                                                         <label for="edit-size-small" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="45" height="45" />
                                                             <span class="visually-hidden">Small</span>
                                                         </label>
@@ -593,7 +593,7 @@ fetchApiData($domain, $username, $email);
                                                         <input type="radio" id="edit-size-extra-small" name="aioa_icon_size_mb"
                                                                value="aioa-extra-small-icon-mb" class="form-radio" />
                                                         <label for="edit-size-extra-small" class="option">
-                                                            <img src="/apps/skynettechnologiesallinoneaccessibility/src/img/aioa-icon-type-1.svg"
+                                                            <img src="/apps/allinoneaccessibility/src/img/aioa-icon-type-1.svg"
                                                                  width="35" height="35"  />
                                                             <span class="visually-hidden">Extra Small</span>
                                                         </label>
@@ -624,5 +624,5 @@ fetchApiData($domain, $username, $email);
             </div>
         </div>
     </div>
-    <script nonce="<?php echo $contentSecurityPolicyNonceManager->getNonce();?>" src="/apps/skynettechnologiesallinoneaccessibility/src/js/jquery.min.js"></script>
-    <script nonce="<?php echo $contentSecurityPolicyNonceManager->getNonce();?>" src="/apps/skynettechnologiesallinoneaccessibility/src/js/aioasetting.js"></script>
+    <script nonce="<?php echo $contentSecurityPolicyNonceManager->getNonce();?>" src="/apps/allinoneaccessibility/src/js/jquery.min.js"></script>
+    <script nonce="<?php echo $contentSecurityPolicyNonceManager->getNonce();?>" src="/apps/allinoneaccessibility/src/js/aioasetting.js"></script>

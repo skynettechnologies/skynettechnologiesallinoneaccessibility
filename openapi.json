@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.3",
     "info": {
-        "title": "skynettechnologiesallinoneaccessibility",
+        "title": "allinoneaccessibility",
         "version": "0.0.1",
         "description": "All in one accessibility",
         "license": {
@@ -47,7 +47,7 @@
         }
     },
     "paths": {
-        "/ocs/v2.php/apps/skynettechnologiesallinoneaccessibility/api": {
+        "/ocs/v2.php/apps/allinoneaccessibility/api": {
             "get": {
                 "operationId": "api-index",
                 "summary": "An example API endpoint",

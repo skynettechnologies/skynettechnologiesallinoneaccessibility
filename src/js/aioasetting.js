@@ -303,7 +303,7 @@ function populateSettings(settings) {
         }
     });
 
-    const iconImg = `/apps/skynettechnologiesallinoneaccessibility/src/img/${settings.widget_icon_type}.svg`;
+    const iconImg = `/apps/allinoneaccessibility/src/img/${settings.widget_icon_type}.svg`;
 
     $(".iconimg").attr("src", iconImg);
 
@@ -427,9 +427,9 @@ typeOptions.forEach((option) => {
         var ico_type = document.querySelector('input[name="aioa_icon_type"]:checked').value;
 
         sizeOptionsImg.forEach((option2) => {
-            option2.setAttribute("src", "/apps/skynettechnologiesallinoneaccessibility/src/img/" + ico_type + ".svg");
+            option2.setAttribute("src", "/apps/allinoneaccessibility/src/img/" + ico_type + ".svg");
         });
-        //custSizePreview.setAttribute("src", "/apps/skynettechnologiesallinoneaccessibility/src/img/" + ico_type + ".svg");
+        //custSizePreview.setAttribute("src", "/apps/allinoneaccessibility/src/img/" + ico_type + ".svg");
     });
 });
 // Set icon on size select

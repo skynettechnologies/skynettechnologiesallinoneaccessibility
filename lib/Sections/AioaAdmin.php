@@ -1,5 +1,5 @@
 <?php
-namespace OCA\SkynetTechnologiesAllInOneAccessibility\Sections;
+namespace OCA\AllInOneAccessibility\Sections;
 
 use OCP\IL10N;
 use OCP\IURLGenerator;

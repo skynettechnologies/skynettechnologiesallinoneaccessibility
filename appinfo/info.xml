@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-	<id>skynettechnologiesallinoneaccessibility</id>
+	<id>allinoneaccessibility</id>
 	<name>All In One Accessibility</name>
 	<summary>Quick Web Accessibility Implementation with All in One Accessibility!</summary>
 <description><![CDATA[
@@ -51,13 +51,13 @@ For more details, visit [**NextCloud accessibility app**](https://www.skynettech
 	<version>1.0.2</version>
 	<licence>agpl</licence>
 	<author mail="rajesh@skynettechnologies.com" homepage="https://www.skynettechnologies.com/">Skynet Technologies USA LLC</author>
-	<namespace>SkynetTechnologiesAllInOneAccessibility</namespace>
+	<namespace>AllInOneAccessibility</namespace>
 	<types>
 		<filesystem/>
 	</types>
 	<category>files</category>
-	<bugs>https://github.com/skynettechnologies/skynettechnologiesallinoneaccessibility/issues</bugs>
-	<repository>https://github.com/skynettechnologies/skynettechnologiesallinoneaccessibility</repository>
+	<bugs>https://github.com/skynettechnologies/allinoneaccessibility/issues</bugs>
+	<repository>https://github.com/skynettechnologies/allinoneaccessibility</repository>
     <screenshot>https://www.skynettechnologies.com/sites/default/files/screenshot-1-free.jpg</screenshot>
 	<screenshot>https://www.skynettechnologies.com/sites/default/files/screenshot-2-free.jpg</screenshot>
 	<screenshot>https://www.skynettechnologies.com/sites/default/files/screenshot-3-free.jpg</screenshot>
@@ -70,15 +70,15 @@ For more details, visit [**NextCloud accessibility app**](https://www.skynettech
 	</dependencies>
 	<navigations>
 		<navigation>
-			<id>skynettechnologiesallinoneaccessibility</id>
+			<id>allinoneaccessibility</id>
 			<name>All In One Accessibility</name>
-			<route>skynettechnologiesallinoneaccessibility.page.index</route>
+			<route>allinoneaccessibility.page.index</route>
 			<icon>app.svg</icon>
 			<type>link</type>
 		</navigation>
 	</navigations>
 	<settings>
-		<admin>OCA\SkynetTechnologiesAllInOneAccessibility\Settings\Admin</admin>
-		<admin-section>OCA\SkynetTechnologiesAllInOneAccessibility\Settings\Section</admin-section>
+		<admin>OCA\AllInOneAccessibility\Settings\Admin</admin>
+		<admin-section>OCA\AllInOneAccessibility\Settings\Section</admin-section>
 	</settings>
 </info>

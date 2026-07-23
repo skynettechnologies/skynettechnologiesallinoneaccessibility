@@ -72,7 +72,7 @@ English (USA), English (UK), English (Australian), English (Canadian), English (
 ### **Installation Steps**
 ## Install App
 
-Clone the contents of the repository into your apps directory and rename it to `skynettechnologiesallinoneaccessibility`. 
+Clone the contents of the repository into your apps directory and rename it to `allinoneaccessibility`. 
 
 ## Active and Configuration
 
